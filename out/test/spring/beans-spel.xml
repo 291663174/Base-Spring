@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="wuhen.spring.beans.spel.Address">
+        <!--使用spel为属性赋一个字面值-->
+        <property name="city" value="#{'FuJian'}"/>
+        <property name="street" value="#{'ZhangZhou'}"/>
+    </bean>
+
+    <bean id="car" class="wuhen.spring.beans.spel.Car">
+        <property name="brand" value="Audi"/>
+        <property name="price" value="500000"/>
+        <!--   使用SpEL引用类的静态属性     -->
+        <property name="tyrePerimete" value="#{T(java.lang.Math).PI*80}"/>
+    </bean>
+
+    <bean id="person" class="wuhen.spring.beans.spel.Person">
+        <!--使用SpEL来引用其他的Bean属性-->
+        <property name="car" value="#{car}"/>
+        <!--使用SpEL来引用其他的Bean属性-->
+        <property name="city" value="#{address.city}"/>
+        <!--在SpEL中动态赋值，使用运算符-->
+        <property name="info" value="#{car.price > 300000 ? '金领' : '白领'}"/>
+        <property name="name" value="Tom"/>
+    </bean>
+
+
+</beans>

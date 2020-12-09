@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--父bean   模板bean    抽象bean:  (p:city p:street爆红运行无碍)
+         bean的abstract属性为true的bean，这样的bean不能被IOC容器实例化，只用来被继承配置,
+         若一个bean的class属性没有指定，则该bean必须是一个抽象bean-->
+    <bean id="address"
+          p:city="Fu.Jian" p:street="MinHou" abstract="true"/>
+
+    <!--子bean  bean配置的继承：使用bean的parent属性指定继承哪个bean的配置
+        可以覆盖父bean继承过来的配置-->
+    <bean id="address2" class="wuhen.spring.beans.autowire.Address"
+          p:street="XiaMen" parent="address"/>
+    <!--相当于
+        <bean id="address2" class="wuhen.spring.beans.autowire.Address"
+           p:city="FuJian" p:street="XiaMen" />
+    -->
+
+    <bean id="address3" class="wuhen.spring.beans.autowire.Address"
+          p:street="QuanZhou" parent="address2"/>
+
+    <bean id="car" class="wuhen.spring.beans.autowire.Car"
+          p:brand="Audi" p:price="300000"/>
+
+    <!--要求在配置Person时，必须有一个关联的car!
+        换句话说person这个bean依赖于Car这个bean
+        前置依赖的bean会在本bean实例化之前创建好，如果前置依赖于多个bean,则可以通过逗号空格
+        或的方式配置bean的名称-->
+    <bean id="person" class="wuhen.spring.beans.autowire.Person"
+          p:name="Tom" p:address-ref="address2" depends-on="car" />
+
+</beans>

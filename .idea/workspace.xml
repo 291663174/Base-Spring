@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ded2a309-12bd-4d55-a403-3fae6cccde98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eVA2MXUvvwVXTdWqAn8qmZabWH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\spring\src\wuhen\spring\beans" />
+      <recent name="E:\spring\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\spring\lib" />
+      <recent name="E:\spring\src\wuhen\spring\beans\spel" />
+      <recent name="E:\spring\src" />
+      <recent name="E:\spring\src\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="wuhen.spring.beans.factorybean" />
+      <recent name="wuhen.spring.beans.spel" />
+      <recent name="wuhen.spring.beans.factory" />
+      <recent name="wuhen.spring.beans.properties" />
+      <recent name="wuhen.spring.beans.scope" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="wuhen.spring.beans" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (5)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wuhen.spring.beans.factory.Main" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wuhen.spring.beans.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wuhen.spring.beans.factorybean.Main" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wuhen.spring.beans.factorybean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wuhen.spring.beans.annotation.Main" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wuhen.spring.beans.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wuhen.spring.beans.annotation.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wuhen.spring.beans.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wuhen.spring.beans.generic.di.Main" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wuhen.spring.beans.generic.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ded2a309-12bd-4d55-a403-3fae6cccde98" name="Default Changelist" comment="" />
+      <created>1594396178075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594396178075</updated>
+      <workItem from="1594396179553" duration="206000" />
+      <workItem from="1594429126630" duration="766000" />
+      <workItem from="1594450974733" duration="12123000" />
+      <workItem from="1594471332141" duration="3774000" />
+      <workItem from="1594626012751" duration="1899000" />
+      <workItem from="1594653006204" duration="2030000" />
+      <workItem from="1594694069528" duration="1200000" />
+      <workItem from="1594783950712" duration="18700000" />
+      <workItem from="1594859882769" duration="10335000" />
+      <workItem from="1594899732754" duration="10631000" />
+      <workItem from="1594950703680" duration="11089000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="386" y="33" key="#Main_(4)" timestamp="1594914761779">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="386" y="33" key="#Main_(4)/0.0.1366.738@0.0.1366.738" timestamp="1594914761779" />
+    <state x="275" y="30" key="#Project_Structure" timestamp="1594396367311">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="30" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1594396367311" />
+    <state x="7" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1594960251220">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="7" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1594960251220" />
+    <state x="0" y="254" key="FileChooserDialogImpl" timestamp="1594901992475">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="254" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594901992475" />
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom" timestamp="1594972495515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="246" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594972495515" />
+    <state width="1323" height="246" key="GridCell.Tab.0.center" timestamp="1594972495515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="246" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594972495515" />
+    <state width="1323" height="246" key="GridCell.Tab.0.left" timestamp="1594972495515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="246" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594972495515" />
+    <state width="1323" height="246" key="GridCell.Tab.0.right" timestamp="1594972495515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="246" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594972495515" />
+    <state x="638" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1594462550535">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="638" y="368" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1594462550535" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1594882461587">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1594882461587" />
+    <state x="612" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1594886697854">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="612" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1594886697854" />
+    <state x="405" y="286" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594481356129">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="405" y="286" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.738@0.0.1366.738" timestamp="1594481356129" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wuhen/spring/beans/first/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
