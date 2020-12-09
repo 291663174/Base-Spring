@@ -1,5 +1,3 @@
-# Second-Spring
-
 Third-Spring
 
 解压后IDEA项目名为spring3-jdbc运行Test类即可进行测试
