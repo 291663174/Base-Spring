@@ -1,0 +1,19 @@
+CREATE TABLE `book_stock` (
+  `isbn` int NOT NULL AUTO_INCREMENT,
+  `stock` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`isbn`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `account` (
+  `username` varchar(255) DEFAULT NULL,
+  `balance` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `book` (
+  `isbn` int NOT NULL AUTO_INCREMENT,
+  `book_name` varchar(255) DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  PRIMARY KEY (`isbn`)
+) ENGINE=InnoDB AUTO_INCREMENT=1003 DEFAULT CHARSET=utf8;
